@@ -107,6 +107,7 @@ public class EventDescription extends JFrame {
 				if (d != null && dis != null) {
 					ParticipantRegistration frame = new ParticipantRegistration ();  // pass the amount of donation and discount rate to participant registration
 					frame.setVisible(true);
+					dispose();
 				}
 			}
 		});
