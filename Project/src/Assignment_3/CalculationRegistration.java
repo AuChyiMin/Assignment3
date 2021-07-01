@@ -1,6 +1,6 @@
 package Assignment_3;
 
-public class CalculationRegistration {
+public class CalculationRegistration implements Payment {
 
 	private double discount = 10;
 	private double donation = 200;
